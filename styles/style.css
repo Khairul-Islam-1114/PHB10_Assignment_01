@@ -64,14 +64,14 @@ main{
     margin-top: 50px;
 }
 
-.main-title, .inspiration-title, .target-title{
+.main-title, .inspiration-title, .target-title, .support-title{
     text-align: center;
     font-size: 32px;
     font-weight: 900;
     margin-bottom: 15px;
 }
 
-.main-subtitle, .inspiration-subtitle, .target-subtitle{
+.main-subtitle, .inspiration-subtitle, .target-subtitle, .support-subtitle{
     text-align: center;
     margin-bottom: 30px;
 }
@@ -107,7 +107,7 @@ main{
     height: 50px;
 }
 
-#inspiration{
+#inspiration, #target, #support{
     margin-top: 25px;
     padding-top: 25px;
 }
@@ -117,6 +117,7 @@ iframe{
     border-radius: 10px;
     border: 10px solid white;
 }
+
 
 .card-wrapper{
     display: flex;
@@ -155,5 +156,35 @@ iframe{
 
 .learn-more{
     color: rgba(13, 19, 33, 1);
+    font-weight: bold;
+}
+
+#support{
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.75;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="text"]{
+    width: 25%;
+    height: 2rem;
+}
+
+input[type="submit"]{
+    height: 2rem;
+    width: 10%;
     font-weight: bold;
 }
