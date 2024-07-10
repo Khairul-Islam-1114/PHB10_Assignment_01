@@ -7,6 +7,30 @@
     font-style: normal;
 }
 
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.top-header a{
+    text-decoration: none;
+    color: rgba(13, 19, 33, 1);
+
+}
+
+.top-header .author{
+    font-weight: bold;
+}
+
+.top-header .download-btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border: 2px solid rgba(13, 19, 33, 1);
+    border-radius: 5px;
+}
 .banner {
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
@@ -186,5 +210,17 @@ input[type="text"]{
 input[type="submit"]{
     height: 2rem;
     width: 10%;
+    font-weight: bold;
+}
+
+footer{
+    width: 90%;
+    margin: 25px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
     font-weight: bold;
 }
